@@ -1,0 +1,129 @@
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    background-color: #efefef;
+}
+
+header{
+    background-color: #364552;
+    color: white;
+    padding: 3rem 2rem;
+    /*    height: 500px;
+    background-image: url(/intro-html/img/grupajas2.jpg);
+    background-size:  cover;
+    background-repeat: no-repeat; */
+
+}
+
+header h1{
+
+    font-size: 4rem;
+    text-align: center;
+}
+/* #titulo{
+    text-align: center;
+    background-color: rgb(40, 63, 63);
+    font-size: 40px;
+    color: white;
+    margin: 0 auto;
+    padding: auto 0;
+    height: 200px;
+} */
+
+/* main */
+
+.container{
+    width:400px;
+    margin: 0 auto;
+
+}
+
+section article{
+    transition: all 0.3s ease;
+    background-color: white;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem grey; 
+    filter: none;
+       
+}
+
+section article h2, section article p{
+    margin: 1rem;
+}
+
+section article img{
+    height: 400px;
+}
+
+
+/* 
+  Tarjeta hecha por Rodri
+    .post{
+    background-color: white;
+    width: 300px;
+    height: 33.3%;
+    margin: 10px 50%;
+    border: solid 1px black;
+    border-radius: 3px;
+} 
+
+.post img{
+    width: 300px;
+    height: 300px;
+}
+*/
+
+
+/* Footer */
+
+footer{
+    background-color: rgb(43, 43, 43);
+    padding: 3rem;
+    color: white;
+    height: 80px;
+}
+
+footer section{
+    float: right;
+}
+
+footer p{
+    margin:0;
+}
+
+/* hecho pr rodri. quedaba bien pero con los anchor invertidos 
+
+footer a{
+    transition: color 0.3s ease;
+    float: right;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+} */
+
+footer a{
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: cornflowerblue;
+
+}
+
+
+/* En el video pone  los anchor del footer en un section y le asigna float */
